@@ -1,0 +1,17 @@
+RELATÓRIO DE SCAN DE REDE
+================================
+
+Data/Hora: 2025-08-28T14:35:25.657Z
+Rede: 192.168.1.59
+Dispositivos: 2
+
+1. 192.168.1.59
+   MAC: local-device
+   Host: SEU COMPUTADOR
+   Tipo: Computador
+
+2. 192.168.1.2
+   MAC: 14:94:48:37:24:2b
+   Host: Gateway
+   Tipo: Router/Gateway
+

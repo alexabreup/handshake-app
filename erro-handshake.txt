@@ -1,0 +1,107 @@
+react-dom-client.development.js:24870 Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+App.js:318 App montado
+index.js:18 ServiceWorker registration successful with scope:  http://localhost:3099/
+App.js:258 Iniciando scan de rede...
+App.js:264 Enviando requisição para: /api/scan
+App.js:284 Resposta recebida: Object
+App.js:288 Dados válidos recebidos, atualizando estado...
+App.js:312 Scan finalizado
+App.js:32 Executando handshake para dispositivo: Object
+:3099/api/handshake:1  Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+App.js:47 Erro no handshake: AxiosError
+executeHandshake @ App.js:47
+Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself. This could allow attackers to steal your identity or take control of your computer. Please type ‘allow pasting’ below and press Enter to allow pasting.
+App.js:32 Executando handshake para dispositivo: {ip: '192.168.15.1', mac: '78:e9:cf:4d:4c:70', hostname: 'Gateway', device_type: 'Router/Gateway', vendor: 'Router', …}
+App.js:34  POST http://localhost:3099/api/handshake 500 (Internal Server Error)
+dispatchXhrRequest @ xhr.js:195
+xhr @ xhr.js:15
+dispatchRequest @ dispatchRequest.js:51
+_request @ Axios.js:187
+request @ Axios.js:40
+httpMethod @ Axios.js:226
+wrap @ bind.js:5
+executeHandshake @ App.js:34
+(anonymous) @ App.js:83
+react_stack_bottom_frame @ react-dom-client.development.js:23953
+runWithFiberInDEV @ react-dom-client.development.js:1518
+commitHookEffectListMount @ react-dom-client.development.js:11886
+commitHookPassiveMountEffects @ react-dom-client.development.js:12024
+commitPassiveMountOnFiber @ react-dom-client.development.js:13840
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:13813
+commitPassiveMountOnFiber @ react-dom-client.development.js:13957
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:13813
+commitPassiveMountOnFiber @ react-dom-client.development.js:13834
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:13813
+commitPassiveMountOnFiber @ react-dom-client.development.js:13853
+flushPassiveEffects @ react-dom-client.development.js:15737
+flushPendingEffects @ react-dom-client.development.js:15702
+flushSpawnedWork @ react-dom-client.development.js:15668
+commitRoot @ react-dom-client.development.js:15403
+commitRootWhenReady @ react-dom-client.development.js:14652
+performWorkOnRoot @ react-dom-client.development.js:14575
+performSyncWorkOnRoot @ react-dom-client.development.js:16231
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:16068
+processRootScheduleInMicrotask @ react-dom-client.development.js:16116
+(anonymous) @ react-dom-client.development.js:16245
+<HandshakeModal>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:336
+App @ App.js:536
+react_stack_bottom_frame @ react-dom-client.development.js:23863
+renderWithHooks @ react-dom-client.development.js:5529
+updateFunctionComponent @ react-dom-client.development.js:8897
+beginWork @ react-dom-client.development.js:10522
+runWithFiberInDEV @ react-dom-client.development.js:1518
+performUnitOfWork @ react-dom-client.development.js:15130
+workLoopSync @ react-dom-client.development.js:14956
+renderRootSync @ react-dom-client.development.js:14936
+performWorkOnRoot @ react-dom-client.development.js:14417
+performSyncWorkOnRoot @ react-dom-client.development.js:16231
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:16068
+processRootScheduleInMicrotask @ react-dom-client.development.js:16116
+(anonymous) @ react-dom-client.development.js:16245
+App.js:47 Erro no handshake: AxiosError {message: 'Request failed with status code 500', name: 'AxiosError', code: 'ERR_BAD_RESPONSE', config: {…}, request: XMLHttpRequest, …}
+executeHandshake @ App.js:47
+await in executeHandshake
+(anonymous) @ App.js:83
+react_stack_bottom_frame @ react-dom-client.development.js:23953
+runWithFiberInDEV @ react-dom-client.development.js:1518
+commitHookEffectListMount @ react-dom-client.development.js:11886
+commitHookPassiveMountEffects @ react-dom-client.development.js:12024
+commitPassiveMountOnFiber @ react-dom-client.development.js:13840
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:13813
+commitPassiveMountOnFiber @ react-dom-client.development.js:13957
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:13813
+commitPassiveMountOnFiber @ react-dom-client.development.js:13834
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:13813
+commitPassiveMountOnFiber @ react-dom-client.development.js:13853
+flushPassiveEffects @ react-dom-client.development.js:15737
+flushPendingEffects @ react-dom-client.development.js:15702
+flushSpawnedWork @ react-dom-client.development.js:15668
+commitRoot @ react-dom-client.development.js:15403
+commitRootWhenReady @ react-dom-client.development.js:14652
+performWorkOnRoot @ react-dom-client.development.js:14575
+performSyncWorkOnRoot @ react-dom-client.development.js:16231
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:16068
+processRootScheduleInMicrotask @ react-dom-client.development.js:16116
+(anonymous) @ reactsudo shut-dom-client.development.js:16245
+<HandshakeModal>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:336
+App @ App.js:536
+react_stack_bottom_frame @ react-dom-client.development.js:23863
+renderWithHooks @ react-dom-client.development.js:5529
+updateFunctionComponent @ react-dom-client.development.js:8897
+beginWork @ react-dom-client.development.js:10522
+runWithFiberInDEV @ react-dom-client.development.js:1518
+performUnitOfWork @ react-dom-client.development.js:15130
+workLoopSync @ react-dom-client.development.js:14956
+renderRootSync @ react-dom-client.development.js:14936
+performWorkOnRoot @ react-dom-client.development.js:14417
+performSyncWorkOnRoot @ react-dom-client.development.js:16231
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:16068
+processRootScheduleInMicrotask @ react-dom-client.development.js:16116
+(anonymous) @ react-dom-client.development.js:16245
+
+Handshake: Gateway
+×
+Erro ao executar handshake: 
+
