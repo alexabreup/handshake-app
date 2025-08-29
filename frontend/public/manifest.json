@@ -1,0 +1,48 @@
+{
+  "short_name": "ElectroNetScan",
+  "name": "ElectroNetScan - Network Scanner",
+  "description": "A powerful network scanning and device handshake tool",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#667eea",
+  "background_color": "#121212",
+  "shortcuts": [
+    {
+      "name": "Start Network Scan",
+      "short_name": "Scan",
+      "description": "Start a new network scan",
+      "url": "/?action=scan",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View History",
+      "short_name": "History",
+      "description": "View connection history",
+      "url": "/?action=history",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "network", "productivity"],
+  "screenshots": []
+}
